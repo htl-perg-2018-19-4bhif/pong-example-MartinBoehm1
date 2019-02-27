@@ -1,0 +1,12 @@
+# Valid new guess
+Post http://localhost:8080/api/guess
+Content-Type: application/json
+
+{
+    "guess": "50"
+}
+
+###
+# Valid new game
+Get http://localhost:8080/api/newGame
+
